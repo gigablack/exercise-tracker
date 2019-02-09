@@ -1,0 +1,27 @@
+{
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u0016https://github.com/gigablack/exercise-tracker.git"
+  },
+  "author": "Gustavo Bethelmy",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.11",
+    "node-env-file": "^0.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
