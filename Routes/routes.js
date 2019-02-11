@@ -9,7 +9,7 @@ router.get('/',(req,res)=>{
     res.send('Hello Express')
 })
 
-router.post('/api/excercise/new-user',newUserController)
+router.post('/api/exercise/new-user',newUserController)
 
 router.post('/api/exercise/add',newExerciseController)
 
