@@ -1,5 +1,5 @@
-const userModel = require('../Models/User')
-const exerciseModel = require('../Models/Exercise')
+const userModel = require('../Models/User.js')
+const exerciseModel = require('../Models/Exercise.js')
 
 const newExerciseController = async (req,res)=>{
     try{
