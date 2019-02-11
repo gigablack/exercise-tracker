@@ -1,4 +1,6 @@
-# Exercise Tracker
+# Exercise Tracker API
+
+## Home Page https://exercise-tracker-api.now.sh/
 
 ## [project url]/api/exercise/new-user
 
