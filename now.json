@@ -1,5 +1,3 @@
 {
-    "version":2,
-    "alias":["exercise-tracker.now.sh"],
-    "builds": [{"src":"./server.js","use":"@now/node-server"}]
+    "alias":["exercise-tracker.now.sh"]
 }
