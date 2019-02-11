@@ -1,4 +1,4 @@
-const userModel = require('../Models/User')
+const userModel = require('./User')
 
 const newUserController = async (req,res)=>{
     try{
