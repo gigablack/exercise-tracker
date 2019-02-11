@@ -6,7 +6,7 @@ const exerciseLogController = require('../Controllers/exerciseLogController')
 const path = require('path')
 
 router.get('/',(req,res)=>{
-    res.send('Hello Express')
+    res.sendFile(path.join(__dirname,'../page.html'))
 })
 
 router.post('/api/exercise/new-user',newUserController)
