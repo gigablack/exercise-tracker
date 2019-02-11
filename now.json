@@ -1,5 +1,8 @@
 {
     "alias":["exercise-tracker-api.now.sh"],
     "version":2,
-    "builds":[{"src":"./index.js","use":"@now/node-server"}]
+    "builds":[{"src":"./index.js","use":"@now/node-server"}],
+    "env":{
+        "DATABASE":"mongodb://Gadolfth:Gusta-11235813@ds127825.mlab.com:27825/exercise-tracker-db"
+    }
 }

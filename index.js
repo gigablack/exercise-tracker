@@ -2,12 +2,9 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const helmet = require('helmet')
-const env = require('node-env-file')
 const path = require('path')
 const mongoose = require('mongoose')
 const router = require('./Routes/routes')
-
-env(path.join(__dirname,'./.env'))
 
 app.set('port',process.env.PORT || 3000)
 
