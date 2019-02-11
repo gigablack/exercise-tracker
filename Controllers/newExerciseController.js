@@ -1,5 +1,4 @@
-const path = require('path')
-const userModel = require(path.join(__dirname,'../Models/User'))
+const userModel = require('../Models/User')
 const exerciseModel = require('../Models/Exercise')
 
 const newExerciseController = async (req,res)=>{
