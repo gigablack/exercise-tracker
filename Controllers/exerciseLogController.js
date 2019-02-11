@@ -1,4 +1,4 @@
-const exerciseModel = require('./Exercise')
+const exerciseModel = require('./Models/Exercise')
 
 const exerciseLogController = async (req,res)=>{
     try{
